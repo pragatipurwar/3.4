@@ -1,7 +1,7 @@
 #-----------------Assignment 6.1---------------
 
 # Import Data Set ; Titanic
-TitanicData <- read_excel("C:\\Users\\Vikas\\Desktop\\Acad Assignments\\Assignment 3\\titanic3.xls",col_names = TRUE)
+TitanicData <- read_excel("C:\\Users\\Pragati\\Desktop\\Acad Assignments\\Assignment 3\\titanic3.xls",col_names = TRUE)
 View(TitanicData)
 str(TitanicData)
 psych::describe(TitanicData)
